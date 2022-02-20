@@ -1,0 +1,53 @@
+h1 {
+    color: #7d5141;
+    border:dashed;
+}
+
+.fire{
+    background-color:#00aa00;
+    display:flex;
+    justify-content:space-between
+}
+
+.games{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap
+}
+
+.social{
+    display:flex;
+    justify-content:flex-end;
+}
+
+h2,p{
+    text-align:center
+}
+
+.person a{
+    margin-left: 20px
+}
+
+a:link{
+    color:aqua
+}
+
+a:visited{
+    color:red
+}
+
+.blank{
+    position:relative
+}
+
+.blank p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0
+}
+
+.blank:hover p{
+    opacity:1
+}
